@@ -48,7 +48,7 @@ else:
 # create a function that gets data from API
 # Source: https://airportdb.io/, which is sourced from https://ourairports.com/
 def airportInfo(ICAO):
-    endpoint = f'https://airportdb.io/api/v1/airport/{ICAO}?apiToken=44e95451d6c28256216ad311e52f0ed5e3c5a974d39827abe09d50a00c6d36cf264216816ee0ff5a814fd6d735fda545'
+    endpoint = f'https://airportdb.io/api/v1/airport/{ICAO}?apiToken=[REDACTED]'
     try: 
         response = requests.get(endpoint)
 
